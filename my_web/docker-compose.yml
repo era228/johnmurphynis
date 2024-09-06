@@ -1,6 +1,6 @@
 services:
   apache:
-    container_name: my-app-phpap # кастомное имя для удобства
+    container_name: my-ap-phpap # кастомное имя для удобства
     image: php:7.2-apache # образ php с установленным apache
     restart: unless-stopped # устанавливаем политику перезапуска контейнера
     ports:
